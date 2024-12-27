@@ -5,7 +5,6 @@ Esse projeto é apenas um estudo sobre o uso do `RabbitMQ` e `BackgroundService`
 O projeto é composto por duas partes principais:  
 1. **Comunication**: Uma aplicação em `C#` baseada em `BackgroundService`, responsável por consumir e enviar mensagens.  
 2. **RabbitMQ**: Uma biblioteca personalizada que fornece serviços de envio/consumo de mensagem através do `RabbitMQ.Client`
-3. ?
 
 ## Tecnologias Utilizadas
 - **C#**: Linguagem principal.
