@@ -5,11 +5,11 @@ using RabbitMQ.Services.Interface;
 
 namespace Comunication.Extensions
 {
-    public static class RabbitMQServices
+    public static class ConfigServices
     {
         public static IServiceCollection AddServices(this IServiceCollection service)
         {
-            service.AddSingleton<IMessage, Message>();
+            service.AddSingleton<IMessageService, MessageService>();
             service.AddBackgroundServices();
 
             return service;
@@ -17,7 +17,8 @@ namespace Comunication.Extensions
 
         public static IServiceCollection AddBackgroundServices(this IServiceCollection service)
         {
-            service.AddHostedService<MessageWorker>();
+            service.AddHostedService<ConsumerWorker>();
+            service.AddHostedService<SendMessageWorker>();
             return service;
         }
 

@@ -2,6 +2,6 @@
 {
     public abstract class Queue
     {
-        public const string FILA_TESTE = "filha-teste";
+        public const string TEST = "messaging-test";
     }
 }
