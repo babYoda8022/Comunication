@@ -30,7 +30,7 @@ Communication
 ├── Properties
 │   └── launchSettings.json
 ├── Extensions
-│   └── RabbitMQServices.cs
+│   └── ConfigServices.cs
 ├── Worker
 │   ├── ConsumerWorker.cs
 │   └── SendMessageWorker.cs
