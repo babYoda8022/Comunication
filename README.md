@@ -19,7 +19,7 @@ O projeto é composto por duas partes principais:
 - **SendMessageWorker** Responsável pelo envio de mensagens em background
 
 2. **RabbitMQ**
-- **ConfigSettings** : Classe/Modelo usado para congiruação das secrets do `RabbitMQ.Client`
+- **ConfigSettings** : Classe/Modelo usado para configuração das secrets do `RabbitMQ.Client`
 - **SendAsync** : Responsável pelo envio de messagens através do `RabbitMQ.Client` de forma facilitada
 - **ConsumerAsync** : Responsável pelo Consumo de messagens através do `RabbitMQ.Client` de forma facilitada
 
